@@ -1,0 +1,23 @@
+{
+  "name": "yes",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "server": "nodemon index.js",
+    "client": "npm start --prefix life-app",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.19.0",
+    "concurrently": "^4.1.0",
+    "express": "^4.17.1",
+    "moment": "^2.24.0",
+    "nodemon": "^1.19.1",
+    "react-moment": "^0.9.2",
+    "react-pdf": "^4.0.5"
+  }
+}
